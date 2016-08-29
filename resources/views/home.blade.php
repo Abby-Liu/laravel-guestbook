@@ -9,10 +9,12 @@
 
                 <div class="panel-body">
                     You are logged in!
+                    <div class="links">Now go to the <a href="{{url('/messages')}}">Guestbook!</a></div>
                 </div>
-		<a href={{url('/messages')}}>Go to guestbook!!!</a>
+
             </div>
         </div>
     </div>
 </div>
 @endsection
+

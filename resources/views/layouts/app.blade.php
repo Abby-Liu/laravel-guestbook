@@ -8,17 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Laravel</title>
-
-    <!-- Bootstrap -->
-    <!-- 最新編譯和最佳化的 CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-
-    <!-- 選擇性佈景主題 -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
-
-    <!-- 最新編譯和最佳化的 JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <title>Guestbook</title>
 
     <!-- Styles -->
     <link href="/css/app.css" rel="stylesheet">
@@ -45,7 +35,7 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    Laravel
+                    Home
                 </a>
             </div>
 
@@ -93,3 +83,5 @@
     <script src="/js/app.js"></script>
 </body>
 </html>
+
+
